@@ -1,0 +1,23 @@
+# node_modules
+/node_modules
+
+# build
+/build
+
+
+# dist
+/dist
+
+
+# .env
+.env
+
+
+# .env.local
+.env.local
+
+# .env.development
+.env.development
+
+# .env.production
+.env.production
