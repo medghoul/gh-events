@@ -12,7 +12,7 @@ jobs:
       - name: Output event data
         run: 'echo "Event: ${{ toJSON(github.event) }}"'
       - name: Get code
-        run: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: Install dependencies
         run: npm install
       - name: Run tests
